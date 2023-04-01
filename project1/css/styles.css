@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 400px;
+}
+
+.head-container {
+  display: block;
+  background-image: url(../img/laptop.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: center;
+  height: 100vh;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.hero-section {
+  text-align: left;
+  width: 60%;
+  margin: auto;
+}
+.heading {
+  font-size: 2rem;
+}
+.heading-span {
+  font-size: 0.8rem;
+}
+.heading-bottom {
+  font-size: 3rem;
+}
+.black-box p {
+  font-size: 80px;
+}
+.black-box {
+  background-color: #000;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  word-wrap: normal;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6rem;
+  margin-top: 10px;
+}
+.card {
+  border-radius: 10px;
+  max-width: 340px;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+.card h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+.card-content {
+  line-height: 1.6rem;
+  font-size: 1rem;
+  padding: 0 1rem 1rem;
+  text-align: center;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  margin: auto;
+  color: white;
+}
+.bottom-card1 {
+  margin-top: 20px;
+  width: 450px;
+  background-color: brown;
+  padding: 10px;
+  justify-content: left;
+}
+.bottom-card2 {
+  margin-top: 20px;
+  width: 450px;
+  background-color: brown;
+  padding: 10px;
+}
+@media screen and (max-width: 786px) {
+  .head-container {
+    min-height: 50vh;
+  }
+  body {
+    padding: 0;
+  }
+  .black-box p {
+    font-size: 24px;
+  }
+  .black-box span {
+    font-size: 28px;
+  }
+  .heading {
+    font-size: 1rem;
+  }
+  .heading-bottom {
+    font-size: 2rem;
+  }
+  .hero-section {
+    text-align: center;
+  }
+}
